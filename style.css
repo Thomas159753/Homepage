@@ -17,4 +17,5 @@
 body{
 color: var(--black);
 background-color: var(--gray);
+min-height: 100vh;
 }
