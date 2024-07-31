@@ -1,6 +1,7 @@
 main{
     margin: 0 auto;
-    max-width: 55vw;
+    max-width: 50vw;
+    padding: 2rem 0rem 10em 0rem;
 }
 
 h2{
@@ -12,7 +13,7 @@ h2{
 section{
     display: grid;
     grid-template-columns: repeat(auto-fill, 21rem);
-    gap: 1rem;
+    gap: 3rem;
     justify-content: space-between;
     padding-top: 2rem;
 }
@@ -44,6 +45,8 @@ section{
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+    padding: 1.3rem;
+    align-items: start;
 }
 .project-description{
     grid-row: 2; 
@@ -59,5 +62,11 @@ section{
 .project-description-wrapper a{
     grid-row: 1;
     grid-column: 2;
-    justify-self: end; 
+    justify-self: end;
+    font-size: 1.6rem;
+}
+
+.project-name{
+    font-size: 1.6rem;
+    font-weight: bold;
 }

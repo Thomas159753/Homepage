@@ -1,0 +1,29 @@
+footer{
+    padding: 2rem 0rem 2rem 0rem;
+    background-color: var(--blue);
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 50vw;
+}
+/* Contact Info */
+.contact{
+    line-height: 1.5;
+    font-size: clamp(1rem, 1.25rem, 1.5rem);
+}
+.contact, .socials-fototer a{
+    color: var(--white);
+}
+h3{
+    padding-bottom: 1rem;
+}
+
+.socials-fototer{
+    padding-top: 1rem;
+}
+.socials-fototer a{
+    padding-left: 0.6rem;
+}
