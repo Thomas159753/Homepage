@@ -7,7 +7,8 @@ footer{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    max-width: 50vw;
+    max-width: 80rem;
+    width: 80%;
 }
 /* Contact Info */
 .contact{

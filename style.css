@@ -1,6 +1,7 @@
 @import "./style-head.css";
 @import "./style-main.css";
 @import "./style-footer.css";
+
 :root{
     --white:  #faf9f6;
     --blue: #4a6274;
@@ -19,4 +20,15 @@ body{
 color: var(--black);
 background-color: var(--gray);
 min-height: 100vh;
+}
+
+@media screen and (max-width: 62.5em){
+    header{
+        display: block;
+    }
+
+    .profile-picture{
+        display: flex;
+        float:left
+    }
 }
