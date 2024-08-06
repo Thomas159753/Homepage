@@ -24,7 +24,8 @@ section{
     position: relative;
     box-shadow: 0rem 0.6rem 0.6rem rgba(0, 0, 0, 0.294);
     border-radius: 3%;
-    overflow: hidden
+    overflow: hidden;
+    transition: transform 1s 0.2s;
 }
 .project img {
     width: 100%;
@@ -70,4 +71,15 @@ section{
 .project-name{
     font-size: 1.6rem;
     font-weight: bold;
+}
+
+.project:hover{
+    transform: scale(1.13);
+}
+
+
+@media screen and (max-width: 999px){
+    section{
+       justify-content: center;
+    }
 }

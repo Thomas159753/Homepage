@@ -21,14 +21,3 @@ color: var(--black);
 background-color: var(--gray);
 min-height: 100vh;
 }
-
-@media screen and (max-width: 62.5em){
-    header{
-        display: block;
-    }
-
-    .profile-picture{
-        display: flex;
-        float:left
-    }
-}

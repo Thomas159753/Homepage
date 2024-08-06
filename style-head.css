@@ -26,10 +26,11 @@ header {
     text-align: left;
     padding: 0 0.5rem;
     background-color: rgba(0, 0, 0, 0.332);
+    text-align: center;
 }
 .name{
     color: white;
-    font-size:  clamp(1.5rem, 3rem + 1.5vw, 10rem);;
+    font-size:  clamp(1.5rem, 3rem + 1vw, 10rem);
 }
 
 /* The Box Line */
@@ -82,3 +83,34 @@ a{
     text-align: end;
 }
 
+@media screen and (max-width: 999px){
+    header{
+        display: block;
+    }
+
+    .profile-picture{
+        float:left;
+        margin: 0rem 1rem 0rem 0rem;
+    }
+    .about-me-wrapper-description{
+        display: block;
+        margin: 9em 0em 0em 2em;
+        padding: 2rem 2rem 2rem 2rem;
+    }
+}
+@media screen and (max-width: 649px){
+    header{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .profile-picture{
+        margin: 0rem 0rem 0rem 0rem;
+    }
+
+    .about-me-wrapper-description{
+        box-shadow: unset;
+        background-color: unset;
+        margin: 2em 0em 0em 0em;
+    }
+}

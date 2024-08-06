@@ -9,13 +9,14 @@ footer{
     margin: 0 auto;
     max-width: 80rem;
     width: 80%;
+    box-sizing: border-box;
 }
 /* Contact Info */
 .contact{
     line-height: 1.5;
     font-size: clamp(1rem, 1.25rem, 1.5rem);
 }
-.contact, .socials-fototer a{
+.contact, .socials-footer  a{
     color: var(--white);
 }
 h3{
@@ -25,6 +26,24 @@ h3{
 .socials-fototer{
     padding-top: 1rem;
 }
-.socials-fototer a{
+.socials-footer  a{
     padding-left: 0.6rem;
+}
+
+@media screen and (max-width: 649px){
+    .footer-wrapper{
+        justify-content: unset;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    .footer-wrapper img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .contact {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
 }
